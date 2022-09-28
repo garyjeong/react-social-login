@@ -14,7 +14,7 @@ const StyledButton = styled.button`
 
 const GoogleLogin = (): JSX.Element => {
     const GOOGLE_CLIENT_ID = "715904775794-7md4m9na3gv0po48buqr9iahfuftntua.apps.googleusercontent.com";
-    const GOOGLE_REDIRECT_URI = "http://localhost:3000/auth/google/callback";
+    const GOOGLE_REDIRECT_URI = "http://localhost:5555/auth/google/callback";
     const getGoogle = `https://accounts.google.com/o/oauth2/v2/auth?scope=https%3A//www.googleapis.com/auth/drive.metadata.readonly&access_type=offline&include_granted_scopes=true&response_type=code&state=state_parameter_passthrough_value&redirect_uri=${GOOGLE_REDIRECT_URI}&client_id=${GOOGLE_CLIENT_ID}`;
     
     const handler = (event: React.MouseEvent<HTMLButtonElement>) => {

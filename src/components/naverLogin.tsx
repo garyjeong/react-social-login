@@ -13,8 +13,8 @@ const StyledButton = styled.button`
 `;
 
 const NaverLogin = (): JSX.Element => {
-    const NAVER_CLIENT_ID = "fnKLjKFVb2cTa0SzBrYx";
-    const NAVER_CLIENT_SECRET = "ZooB0MVs14";
+    const NAVER_CLIENT_ID = "4edcN1hgoKbFdfn2wR3V";
+    const NAVER_CLIENT_SECRET = "OtqO_YktR4";
     const NAVER_CALLBACK_URL = "http://localhost:3000/auth/naver/callback";
     const getNaver = `https://nid.naver.com/oauth2.0/authorize?response_type=code&client_id=${NAVER_CLIENT_ID}&state=${NAVER_CLIENT_SECRET}&redirect_uri=${NAVER_CALLBACK_URL}`;
     

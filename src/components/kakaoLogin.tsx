@@ -14,8 +14,8 @@ const StyledButton = styled.button`
 `;
 
 const KakaoLogin = (): JSX.Element => {
-    const KAKAO_REST_API_KEY = "aedbaa63a901249eb9a7aeeec2b36418";
-    const KAKAO_REDIRECT_URI = "http://localhost:3000/auth/kakao/callback";
+    const KAKAO_REST_API_KEY = "b5473064135c985bf33837655c4bfe4d";
+    const KAKAO_REDIRECT_URI = "http://localhost:5555/auth/kakao/callback";
     const getKakao = `https://kauth.kakao.com/oauth/authorize?client_id=${KAKAO_REST_API_KEY}&redirect_uri=${KAKAO_REDIRECT_URI}&response_type=code`;
 
     const handler = (event: React.MouseEvent<HTMLButtonElement>) => {
